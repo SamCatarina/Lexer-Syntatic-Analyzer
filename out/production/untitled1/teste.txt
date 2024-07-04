@@ -1,0 +1,20 @@
+program exemplo;
+
+int xx = 10;
+int yy = 3.8;
+
+int funcao() {
+    float yw = 30;
+    return yw;
+}
+
+
+int principal(int mm) {
+    int zz = funcao();
+    if (zz > 0) {
+        print(mm);
+    } else {
+        print("m");
+    }
+    return 0;
+}
